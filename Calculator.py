@@ -5,8 +5,13 @@ namba2 = int(input ("Ingiza namba ya pili: ")
 if alama== "+" :
              jibu = namba1 + namba2
 print ("jibu ni : ",jibu)
-elf alama== "-":
+elif alama== "-":
 jibu = namba1 - namba2
 print ("jibu ni : "'jibu)
-       else:
-print ("Alama hiyo sijafundishwa bado")
+       print("alama hiyo sijafundishwa bado")
+       elif alama=="*":
+jibu = namba1 * namba2
+print ( "jibu ni : "'jibu)
+       elif alama=="/":
+       jibu = namba1 / namba2
+       print ("jibu ni : "'jibu)
