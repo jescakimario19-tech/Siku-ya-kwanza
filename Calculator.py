@@ -15,3 +15,7 @@ print ( "jibu ni : "'jibu)
        elif alama=="/":
        jibu = namba1 / namba2
        print ("jibu ni : "'jibu)
+vat = jibu * 0.18
+jumla = jibu + vat
+print ("VAT 18% ni:",vat)
+print (" jumla na vat:",jumla)
