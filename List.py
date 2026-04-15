@@ -17,8 +17,13 @@ while True:
     for tumizi in matumizi
     print(tumizi)
                     elif chaguo == "3":
-  
-   print ("Tutahesabu jumla baadaye")
+  jumla = 0
+for tumizi in matumizi
+#Tunataka sehemu ya kiasi kutoka "chakula -5000"
+kiasi_cha_tumizi = tumizi.slit("-")
+ jumla = jumla + int(kiasi_cha_tumizi)  
+print ("/n --- JUMLA YA BOOM --- ")
+print (" umetumia jumla ya Tsh:",jumla)
 elif chaguo == "4":
 print ("kwaheri.Dhibiti boom yako!")
 break
